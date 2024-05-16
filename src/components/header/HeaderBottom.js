@@ -33,7 +33,7 @@ const HeaderBottom = () => {
         <li className="hidden md:inline-flex headerHover">Sell</li>
       </ul>
       {isSideBarOpen && (
-        <div className="w-full h-screen text-black fixed top-0 left-0 bg-amazon_blue bg-opacity-50">
+        <div className="w-full h-screen z-50 text-black fixed top-0 left-0 bg-amazon_blue bg-opacity-50">
           <div className="w-full h-full relative">
             <motion.div
               initial={{ x: -500, opacity: 0 }}
