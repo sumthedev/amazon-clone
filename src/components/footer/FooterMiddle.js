@@ -19,8 +19,7 @@ const FooterMiddle = () => {
           </div>
         </div>
       </div>
-      {/* ======================= Middle Top End here ============================ */}
-      {/* ======================= Middle Bottom Start here ======================= */}
+
       <div className="w-full flex gap-6 items-center justify-center py-6">
         <div>
           <img className="w-20 pt-3" src={logo} alt="logo" />

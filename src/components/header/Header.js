@@ -12,7 +12,7 @@ function Header() {
   const [showAll, setShowAll] = useState(false);
 
   return (
-    <div className="w-full">
+    <div className="w-full sticky top-0">
       <div
         className="bg-amazon_blue text-white w-full 
       px-4 py-3 flex item-center gap-4 "
