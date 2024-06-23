@@ -10,7 +10,7 @@ const FooterTop = () => {
             Sign In
           </button>
           <p className="text-xs mt-1">
-            New Customber?{" "}
+            New Customer?{" "}
             <span className="text-blue-600 ml-1 cursor-pointer">
               Start here.
             </span>
