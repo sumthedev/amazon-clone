@@ -11,7 +11,7 @@ const Products = () => {
   const productsData = data.data;
 
   return (
-    <div className="max-w-screen-2xl mx-auto  grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 xl:gap-4 px-4">
+    <div className="max-w-screen-2xl mx-auto mt-[150px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 xl:gap-4 px-4">
       {productsData.map((item) => (
         <div
           key={item.id}
